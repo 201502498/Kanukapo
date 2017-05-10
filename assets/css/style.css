@@ -1,5 +1,5 @@
 /*=============================================================
-    Authour : David Hangula
+    Authour : Enigma 
     License: Commons Attribution 3.0
 
 
@@ -30,24 +30,29 @@ body {
 
 .logo-custom {
     max-height: 50px;
-}
+    position: fixed;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    max-width: inherit;
+        }
 
 #menu {
-    background-color: rgba(24, 23, 75, 1);
-    color: #fff;
+    background-color: white;
+    color: rgba(24, 23, 75, 1);
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
-    min-height: 70px;
+    max-height: 100px;
+    background-color:transparent;
 }
 
 
 .navbar-inverse {
     border-color: transparent;
-}
+    }
 
     .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
-        color: #FFF;
+        color: orangered;
         padding: 22px 10px;
     }
 
@@ -122,6 +127,10 @@ body {
             margin-left: 8px;
             margin-right: 8px;
         }
+.tag-line p {
+    padding-top: 24px;
+    padding-top: 30px;
+}
 /*=====================================
   HEADER LINE STYLES 
     ===================================*/
@@ -129,8 +138,33 @@ body {
     font-weight: 900;
     font-size: 25px;
     padding-bottom: 5px;
-    padding-top: 25px;
+    padding-top: 26px;
     color: #000;
+    text-align: center;
+}
+
+td {
+    font-size-adjust: auto;
+    border-style:groove;
+}
+.nav li:hover {
+    background-color:lightgrey;
+    border-radius: 51px;
+    border-left-style:dotted;
+    font-size: 14.5px;
+    color: darkblue;
+    text-decoration-color: blue;
+}
+
+.nav {
+   border-radius: 51px;
+    opacity:inherit;
+    align-content: center;
+    text-align: center;
+    background-color: beige;
+    border-color: red;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -141,6 +175,7 @@ h1::after {
     width: 200px;
     margin: 12px auto;
 }
+
 
 /*=====================================
   ABOUT STYLES 
@@ -255,16 +290,24 @@ h1::after {
         color:#fff;
     }
 #contact-sec .form-control{
-    background-color:rgba(255, 255, 255, 0);
-    color:#fff;
+    background-color:beige;
+    color:darkred;
 }
+
+
 /*=====================================
   Footer STYLES 
   ===================================*/
 #footer {
-    padding:5px 20px;
     background-color:#2d3d5a;
     text-align:right;
     color:#fff;
     font-size:15px;
+    padding: 0px;
+    position: relative;
+}
+
+img {
+    border-style: groove;
+    border-radius: 71px;
 }
